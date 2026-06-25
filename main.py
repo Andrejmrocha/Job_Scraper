@@ -1,14 +1,17 @@
 from playwright.sync_api import sync_playwright
 
 
-def extrair_titulo(cards):
+def extrair_dados(cards):
     lista = []
     for i in range(cards.count()):
-        titulo = cards.nth(i).locator("h3")
-        empresa = cards.nth(i).locator("p").first
+        card = cards.nth(i)
+        titulo = card.locator("h3")
+        empresa = card.locator("p").first
+        link = card.get_attribute("href")
         lista.append({
             "titulo": titulo.text_content(),
-            "empresa": empresa.text_content()
+            "empresa": empresa.text_content(),
+            "link": link
         })
     return lista
 
@@ -24,7 +27,7 @@ with sync_playwright() as playwright:
     page.get_by_role("button", name="Aplicar").click()
     page.locator("a[aria-label*='Ir para vaga']").first.wait_for()
     links_vagas = page.locator("a[aria-label*='Ir para vaga']")
-    dados_extraidos = extrair_titulo(links_vagas)
+    dados_extraidos = extrair_dados(links_vagas)
     print(dados_extraidos)
 
     input()
