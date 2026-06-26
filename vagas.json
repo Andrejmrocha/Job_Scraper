@@ -1,0 +1,189 @@
+[
+    {
+        "titulo": "Analista de Sistemas Oracle EBS Pl - Sustentação de Sistemas Financeiros",
+        "empresa": "Stefanini Group",
+        "link": "https://stefanini.gupy.io/job/eyJqb2JJZCI6MTE1NDQxNDQsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+        "responsabilidades": [
+            "Realizar a sustentação e o suporte de ambientes críticos, garantindo a disponibilidade e a estabilidade dos sistemas financeiros;Elaborar análises complexas e diagnósticos de incidentes, executando correções de falhas e atendendo requisições de forma eficaz;Realizar o acompanhamento e a integração entre sistemas, assegurando a fluidez dos processos e a conectividade entre diferentes módulos (GL, AR, AP, FA, PO, INV, OM, HR, WE, OKC, QP, entre outros);Desenvolver e manter scripts, reports, XML Publisher e workflows, utilizando Oracle Forms, PL/SQL (procedures, packages, functions, triggers) e otimizando consultas SQL;Administrar bancos de dados Oracle, realizando monitoramento operacional, troubleshooting, análise de causa raiz, e aplicando melhorias contínuas nos processos;Gerenciar SLAs e OLAs, atuando de forma proativa na identificação de problemas recorrentes e propondo iniciativas para aprimorar a eficiência do ambiente financeiro."
+        ],
+        "requisitos": [
+            "Formação superior em Ciência da Computação, Engenharia da Computação, Sistemas de Informação ou áreas correlatas;Experiência em sustentação e suporte de sistemas financeiros de missão crítica, preferencialmente em ambientes corporativos de grande porte;Sólido conhecimento técnico e funcional em Oracle E-Business Suite (versões R11 e R12) e nos módulos:General Ledger (GL);Accounts Receivable (AR);Accounts Payable (AP);Fixed Assets (FA);Purchasing (PO);Inventory (INV);Order Management (OM);Human Resources (HR);Workflow Engine (WE);Contracts (OKC);Pricing (QP);Interfaces e integrações financeiras (IE, RI);Experiência no desenvolvimento e manutenção com Oracle Forms, criação de reports, XML Publisher e workflows utilizando Workflow Builder;Desenvolvimento avançado em PL/SQL, incluindo a criação de procedures, packages, functions e triggers, e expertise na otimização de consultas SQL;Experiência em ambientes de alta disponibilidade, com forte orientação para o cumprimento de SLAs, gestão de incidentes e resolução de problemas;Perfil analítico, senso de prioridade, visão de negócio, proatividade e excelente capacidade de comunicação e relacionamento interpessoal.",
+            "Conhecimento básico de inglês e espanhol para interação com equipes internacionais e latino-americanas;Experiência em ambientes regulados, financeiros, de risco e compliance;Vivência em processos ITIL e gestão de incidentes, problemas e mudanças."
+        ]
+    },
+    {
+        "titulo": "Desenvolvedor(a) de Sistema | Gestão CX",
+        "empresa": "Brisanet",
+        "link": "https://brisanet.gupy.io/job/eyJqb2JJZCI6MTE1NDQ1NjYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+        "responsabilidades": [
+            "Vivenciar a identidade organizacional do Grupo Brisanet;Preparar relatórios, formulários ou planilhas, conforme solicitações;Propor melhorias para as rotinas e processos da área;Alimentar indicadores da área;Participar ativamente das reuniões e compromissos da organização, quando solicitado;Prestar atendimento aos colaboradores em assuntos relacionados à área;Utilizar os equipamentos de segurança individual e coletiva, quando necessário.",
+            "Desenvolver, implantar e realizar manutenção de sites web, sistemas e aplicações, visando a agilidade,segurança e eficácia dos processos adequando-os às necessidades das áreas e clientes;Construir a interface do site / sistema, fazendo ela da melhor forma possível pra experiência do usuário;Modelar bancos de dados;Definir a lógica do site, sistema e/ou aplicação;Prototipar projetos de sites / sistemas;Manipular DOM (Document Object Model) para criar telas e animações;Otimizar SEO de aplicações;Otimizar animações;Executar tarefas em background;Criar e integrar APIs;Monitorar consumo de APIs;Monitorar a performance de servidores;Monitorar performance de sistemas;Identificar e remover erros no código-fonte do site/sistema por meio de processos de depuração;Realizar testes unitários e de integração;Analisar performance de banco de dados e queries;Parametrizar funções, procedures e views em banco de dados;Criar scripts;Criar micro serviços;Arquitetar e migrar serviços para armazenamento em nuvem;Documentar códigos criados."
+        ],
+        "requisitos": [
+            "Sistemas operacionais Linux; Manipulação de dados via terminal; Redes de computadores; Banco de",
+            "Sistema de controle de versão; LGPD; Linguagens de programação (Node, typescript, PostgreSQL);Metodologias ágeis; Inglês técnico; Code Design; Testes (unitários e de integração); Padrões de arquitetura (ex: MVC, MC, DDD); Ferramentas de automação (lint, package managers, webpack e etc),Performance de código, APIs (REST e GraphQL), Banco de dados não relacionais, Micro serviços,CleanCode, Docker, GitFlow, WebSockets, Segurança de sistemas, Arquitetura de serviços em cloud,Documentação de código, Design Partness, Design System, Concorrência / Multitreading de processos.",
+            "RabbitMQ etc), Frameworks (utilizado pelo setor/funcionário), Ferramentas Google (Planilhas, Documentos)",
+            "Protocolo HTTP, Sistema de controle de versão, UI, UX, Lógica de programação e algoritmos, Linguagens de programação e paradigmas, Marcação com HTML, Layouts e folhas de estilo com CSS, Frameworks Frontend, CSS Moderno, Gerenciamento de pacotes (npm, yarn), Linguagens de programação (javascript/typescript, framework), Metodologias ágeis, Inglês técnico, Code Design, Testes (unitários e de integração), Padrões de arquitetura (ex: MVC, MC, DDD), Ferramentas de automação (lint, package managers, webpack e etc), Performance de código, APIs (REST e GraphQL), Banco de dados não relacionais, Micro serviços, WebSockets, Processos de cross-browser, SEO, Conhecimento em metodologias ágeis (Scrum, Kanban), Aplicações mobile (React Native, Flutter, Kotlin, etc ), Documentação de código, Clean Code, Design System;",
+            "Google (Planilhas, Documentos)",
+            "Sistema de controle de versão, LGPD, Linguagens de programação mobile (JAVA, HTML5, Objective-C,Python, Swift, Flutter, React), Lógica de programação, Metodologias ágeis, Inglês técnico, Code Design,Testes (unitários e de integração, Ferramentas de automação (lint, package managers, webpack e etc),Performance de código; Segurança de sistemas; Documentação de código.",
+            "RabbitMQ etc), Frameworks (utilizado pelo setor/funcionári), Ferramentas Google (Planilhas, Documentos"
+        ]
+    },
+    {
+        "titulo": "Analista de Sistemas de Automação | Servidores de Aplicação - Sênior ",
+        "empresa": "Lanlink Informática",
+        "link": "https://vempralanlink.gupy.io/job/eyJqb2JJZCI6MTE1MTYwOTksInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+        "responsabilidades": [
+            "Criar scripts, ferramentas e processos automatizados para otimizar tarefas de deploy, manutenção, recuperação e escalabilidade, promovendo eficiência operacional;Projetar melhorias na infraestrutura, incluindo estratégias de escalabilidade, alta disponibilidade, balanceamento de carga e otimização de recursos;Liderar a implementação de ferramentas de gerenciamento de configuração e garantir controle rigoroso de mudanças;Analisar tendências de uso, planejar expansões e melhorias na infraestrutura para suportar crescimento sustentável e demandas futuras;Implementar políticas de segurança avançadas, monitorar vulnerabilidades;Conduzir testes para validar melhorias, identificar gargalos e assegurar a estabilidade sob diferentes condições de uso;Manter documentação detalhada, padronizações e procedimentos de operação atualizados e acessíveis para a equipe e gestão de TIC."
+        ],
+        "requisitos": [
+            "ESCOLARIDADE",
+            "· Superior Completo na área de Tecnologia da Informação (TI).",
+            "EXPERIÊNCIA PROFISSIONAL",
+            "· Comprovar, através de registros na Carteira de Trabalho e Previdência Social ou de declaração de instituição pública ou privada onde já tenha trabalhado, possuir experiência na especialidade citada, em ambientes corporativos críticos e com alta disponibilidade.",
+            "CERTIFICAÇÕES/CURSOS/TREINAMENTOS",
+            "· Treinamento ITIL 4, com carga horária de no mínimo de 12 (doze) horas.",
+            "· Certificação oficial ITIL 4 Foundation ou superio",
+            "· Certificação Oficial RHCJA (Red Hat Certified JBoss Administration) ou Curso Oficial JBoss Application Administration I.",
+            "· Curso de Certified Kubernetes Application Developer (CKAD), com carga horária mínima de 15h"
+        ]
+    },
+    {
+        "titulo": "Analista Sistemas Sênior | Salesforce",
+        "empresa": "Vivo Digital",
+        "link": "https://vivodigital.gupy.io/job/eyJqb2JJZCI6MTE1MTYzNTAsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+        "responsabilidades": [
+            "Responsável por implementar e sustentar soluções alinhadas às diretrizes definas com e liderança técnica de desenvolvedoresContribuir para a evolução contínua dos processos, identificando oportunidades de automação e melhoria.Atuar em fóruns de definição técnica apoiando o time propor soluções estejam alinhadas com os objetivos estratégicos da empresa e boas práticasConhecer design e implementação das nuvens Sales Cloud, Service Cloud e Data Cloud, e integração de sistemas: Projetar e apoiar a equipe do projeto na implementação de soluções personalizadas"
+        ],
+        "requisitos": [
+            "Ensino Superior completo em Ciências da Computação, Engenharia da Computação, Sistemas da Informação, Análises de sistemas ou áreas correlatasExperiência como Tech lead em projetos de alta complexidadeSólida experiência com as nuvens Salesforce Sales Cloud, Service Cloud e Industries (Telecomunicações), com domínio prático sobre metadados, data model, limites, integrações e segurança.Conhecimento avançado em: Apex; LWC; Flows; Performance tuning; Segurança e governança (Profiles, Permission Sets, OWD, Shield se aplicável). Experiência com ambientes multi-cloud.Vivência com processos de delivery contínuo (ambientes, releases, CI/CD, Git, DevOps Salesforce).Boa capacidade de análise e resolução de problemas com vivência com correção de bugs e troubleshootingHabilidade de comunicação e interação com diferentes níveis da organização.Certificações Salesforce serão consideradas um diferencial, especialmente CRMA Analytics, App Builder e CPQInglês Intermediário será considerado um diferencial."
+        ]
+    },
+    {
+        "titulo": "ENGENHEIRO SISTEMAS SR",
+        "empresa": "Stefanini Group",
+        "link": "https://stefanini.gupy.io/job/eyJqb2JJZCI6MTE1NDE1MjAsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+        "responsabilidades": [
+            "Estamos buscando um Engenheiro Backend Sênior com forte experiência em .NET / C#. O candidato ideal deve ter uma sólida experiência em construção de sistemas distribuídos, APIs escaláveis e integração com serviços de IA.",
+            "Responsabilidades:",
+            "- Definir a arquitetura backend da solução",
+            "- Construir APIs escaláveis e resilientes",
+            "- Projetar e implementar integração com IA e multi-agentes",
+            "- Garantir a segurança e a governança dos dados",
+            "- Apoiar decisões técnicas e direcionar desenvolvedores pleno/júnior",
+            "- Trabalhar em conjunto com a equipe de frontend na definição de contratos (BFF quando necessário)",
+            "Requisitos:",
+            "- Experiência com C# e .NET (LTS)",
+            "- Experiência com ASP.NET Core (Web API, Minimal APIs)",
+            "- Conhecimento em arquitetura de microsserviços",
+            "- Experiência com Clean Architecture / DDD",
+            "- Conhecimento em Design Patterns",
+            "- Experiência com integração com APIs externas (REST, GraphQL)",
+            "- Experiência com mensageria (RabbitMQ, Kafka, Service Bus)",
+            "- Conhecimento em sistemas orientados a eventos",
+            "- Experiência com segurança (OAuth2, JWT, Identity)",
+            "- Conhecimento em observabilidade (logs, métricas, tracing)",
+            "- Experiência com performance e escalabilidade",
+            "- Experiência com integração com serviços de IA (OpenAI, Azure AI, etc.)",
+            "Diferenciais:",
+            "- Experiência com SSE/WebSockets (streaming)",
+            "- Experiência com orquestração de IA",
+            "- Conhecimento em pipelines de dados",
+            "- Experiência com cloud (Azure/AWS)"
+        ],
+        "requisitos": [
+            "Ausente"
+        ]
+    },
+    {
+        "titulo": "ESP DESENVOLVIMENTO SISTEMAS",
+        "empresa": "Voltz, a Fintech da Energisa",
+        "link": "https://voltz.gupy.io/job/eyJqb2JJZCI6MTE1NDA3ODIsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+        "responsabilidades": [
+            "- Liderar iniciativas técnicas de alto risco, alta complexidade ou alto custo de mudança.",
+            "- Propor e apoiar evolução arquitetural alinhada a objetivos de negócio, escalabilidade, segurança e performance.",
+            "- Orientar decisões que impactam múltiplos domínios: padrões, contratos, integrações, APIs, eventos e guidelines.",
+            "- Atuar como referência técnica para seniors e times.",
+            "- Criar e manter documentação viva de sistemas críticos: ADRs, RFCs, fluxos, contratos, runbooks e limites operacionais.",
+            "- Promover compartilhamento estruturado de conhecimento: guildas, tech talks, post-mortems e revisões arquiteturais.",
+            "- Ser escalonamento técnico em incidentes críticos, coordenando resposta, aprendizado e ações preventivas.",
+            "- Articular Engenharia, Produto, Segurança, Operações e Negócio em decisões relevantes.",
+            "- Influenciar roadmap com base em risco técnico, custo de mudança, esforço recorrente, tempo de entrega e impacto no cliente."
+        ],
+        "requisitos": [
+            "- Experiência profunda em arquitetura de sistemas distribuídos.",
+            "- Experiência coordenando decisões técnicas entre múltiplos times.",
+            "- Capacidade de transformar problemas complexos em fases executáveis.",
+            "- Experiência com arquitetura multi-domínio, contratos entre sistemas, versionamento e migração.",
+            "- Forte base de observabilidade, confiabilidade, SLOs, error budgets e incident management.",
+            "- Conhecimento de segurança aplicada, shift-left, policy-as-code ou revisão de risco.",
+            "- Experiência sólida em dois ou mais ecossistemas tecnológicos.",
+            "- Capacidade de conduzir PoCs considerando custo, risco, maturidade, adoção e impacto real.",
+            "- Comunicação clara com engenharia, gestão e stakeholders de negócio."
+        ]
+    },
+    {
+        "titulo": "ESP DESENVOLVIMENTO SISTEMAS",
+        "empresa": "Voltz, a Fintech da Energisa",
+        "link": "https://voltz.gupy.io/job/eyJqb2JJZCI6MTE1NDA3NTcsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+        "responsabilidades": [
+            "- Liderar iniciativas técnicas de alto risco, alta complexidade ou alto custo de mudança.",
+            "- Propor e apoiar evolução arquitetural alinhada a objetivos de negócio, escalabilidade, segurança e performance.",
+            "- Orientar decisões que impactam múltiplos domínios: padrões, contratos, integrações, APIs, eventos e guidelines.",
+            "- Atuar como referência técnica para seniors e times.",
+            "- Criar e manter documentação viva de sistemas críticos: ADRs, RFCs, fluxos, contratos, runbooks e limites operacionais.",
+            "- Promover compartilhamento estruturado de conhecimento: guildas, tech talks, post-mortems e revisões arquiteturais.",
+            "- Ser escalonamento técnico em incidentes críticos, coordenando resposta, aprendizado e ações preventivas.",
+            "- Articular Engenharia, Produto, Segurança, Operações e Negócio em decisões relevantes.",
+            "- Influenciar roadmap com base em risco técnico, custo de mudança, esforço recorrente, tempo de entrega e impacto no cliente."
+        ],
+        "requisitos": [
+            "- Experiência profunda em arquitetura de sistemas distribuídos.",
+            "- Experiência coordenando decisões técnicas entre múltiplos times.",
+            "- Capacidade de transformar problemas complexos em fases executáveis.",
+            "- Experiência com arquitetura multi-domínio, contratos entre sistemas, versionamento e migração.",
+            "- Forte base de observabilidade, confiabilidade, SLOs, error budgets e incident management.",
+            "- Conhecimento de segurança aplicada, shift-left, policy-as-code ou revisão de risco.",
+            "- Experiência sólida em dois ou mais ecossistemas tecnológicos.",
+            "- Capacidade de conduzir PoCs considerando custo, risco, maturidade, adoção e impacto real.",
+            "- Comunicação clara com engenharia, gestão e stakeholders de negócio."
+        ]
+    },
+    {
+        "titulo": "Analista de Sistemas ",
+        "empresa": "Recrutamento para área de tecnologia com Fit Cultural e Aderência Técnica.",
+        "link": "https://werecruiter.gupy.io/job/eyJqb2JJZCI6MTE1MzY4NzksInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+        "responsabilidades": [
+            "Desenvolver e manter APIs REST utilizando Node.js e JavaCriar e evoluir integrações entre sistemas internos e plataformas de clientes corporativosParticipar do ciclo completo de desenvolvimento de software (codificação, testes, implantação e manutenção)Colaborar com squads ágeis no desenvolvimento de novas funcionalidadesApoiar a configuração e sustentação de integrações em ambiente de produção"
+        ],
+        "requisitos": [
+            "Ensino superior concluído em Ciência da Computação, Sistemas de Informação, Engenharia ou areas correlatas;Experiência com desenvolvimento back-end em Node.jsExperiência com desenvolvimento back-end em JavaExperiência com desenvolvimento de APIs RESTExperiência com integração entre sistemas via APIs ou serviçosExperiência com participação em ciclo de desenvolvimento de software (testes, deploy e manutenção)",
+            "Experiência com desenvolvimento em ambientes de squads ágeisExperiência com sistemas de integração entre plataformas corporativasExperiência com manutenção de sistemas em produçãoExperiência com versionamento de código e boas práticas de desenvolvimento (ex: Git)Experiência com arquitetura de sistemas ou boas práticas de back-end",
+            "Autonomia para resolver problemas sem dependência constante de direcionamentoCuriosidade técnica e interesse em entender o funcionamento dos sistemas em profundidadeBoa comunicação para relatar progresso, bloqueios e decisões técnicasProatividade para aprender e evoluir rapidamente em um ambiente de alta complexidadeAlinhamento com os valores da empresa:Simplificar processos por meio da tecnologiaInovar com soluções práticas e escaláveisConectar sistemas, pessoas e dadosLiderar com responsabilidade mesmo em nível júnior"
+        ]
+    },
+    {
+        "titulo": "Analista Qualidade Sistemas Sr",
+        "empresa": "Vivo Digital",
+        "link": "https://vivodigital.gupy.io/job/eyJqb2JJZCI6MTE1MjgzNzgsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+        "responsabilidades": [
+            "Desenvolver e manter a estratégia de testes manuais e automatizados em todos os níveis;Ser responsável pelos testes completos de um projeto em todas as plataformas envolvidas;Criar e executar planos e casos de teste para as funcionalidades da aplicação;Garantir cobertura de testes, priorizando execuções e reportando progresso e resultados junto aos times;Promover produtividade em QA por meio de automação, ferramentas e boas práticas;Disseminar a cultura de qualidade em toda a organização;Colaborar com equipes de desenvolvimento da Telefônica no Brasil e globalmente;Liderar o desenho, desenvolvimento e evolução da arquitetura de automação (UI, API, integração);Assegurar aplicação estratégica da pirâmide de testes entre produtos e squads;Definir padrões, diretrizes e governança de testes organizacionais;Apoiar decisões de arquitetura com foco em testabilidade, qualidade e resiliência;Implantar práticas de Shift Left, garantindo qualidade desde a concepção;Integrar IA à estratégia de testes (geração de casos, testes autônomos, priorização por risco, auto-healing);Realizar análises de risco, impacto e cobertura técnica;Atuar em ambientes complexos com microsserviços, mensageria e alta disponibilidade;Liderar iniciativas organizacionais de qualidade em contexto SAFe;Mentorar profissionais de diferentes níveis e apoiar evolução técnica do time;Influenciar roadmaps, arquitetura e estratégias de qualidade de produto."
+        ],
+        "requisitos": [
+            "Experiência com testes funcionais, caixa preta, caixa branca e testes instrumentados;Vivência na criação e execução de planos de teste em UI;Experiência em testes regressivos, unitários, API, integração e segurança;Atuação com testes em aplicações desktop, web e mobile;Conhecimento em metodologias ágeis e boas práticas do SDLC.Comunicação clara com times técnicos, gerenciais e stakeholders para coleta de requisitos e planejamento de testes;Forte capacidade analítica e foco na resolução de problemas;Mentalidade centrada no cliente e busca por excelência na experiência final;Boa habilidade de relacionamento, colaboração e trabalho em equipe;Resiliência e disposição para aprender continuamente;Capacidade de quebrar paradigmas e propor soluções criativas;Vaga remota, com residência obrigatória em São Paulo – SP ou Curitiba – PR.",
+            "Graduação completa em cursos de tecnologia (Ciência da Computação, Sistemas de Informação, Matemática ou áreas afins);Domínio avançado em automação de testes (UI e API) e arquitetura de testes;Forte conhecimento da pirâmide de testes e aplicação estratégica em escala;Experiência robusta em linguagens como Java, JavaScript e Python;Profundo conhecimento em CI/CD e pipelines complexos;Experiência com ambientes distribuídos, microsserviços e integrações críticas;Domínio de práticas Shift Left e qualidade orientada a risco;Experiência com IA aplicada a testes: geração de código, detecção de falhas, priorização e automação inteligente;Vivência comprovada com SAFe ou frameworks ágeis escalados.",
+            "ISTQB CTAL Test Manager / Technical Test Analyst (avançado);SAFe Practitioner / SAFe Agilist;Certificações DevOps;Certificações avançadas de automação;Vivência em liderar governança de qualidade em múltiplos produtos;Experiência com testes de contrato, observabilidade, resiliência e caos engineering;Atuação prévia em iniciativas de transformação ágil."
+        ]
+    },
+    {
+        "titulo": "Pessoa Consultora de TI Jr – Migração de Sistemas (Remoto) - 0267",
+        "empresa": "Starian",
+        "link": "https://starian.gupy.io/job/eyJqb2JJZCI6MTEzNjAyNjcsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+        "responsabilidades": [
+            "Tratamento de bases, validação de consistência e preparação de dados para importação no sistema.Criação de queries, ajustes de dados e apoio na estruturação de rotinas de migração.Controle de etapas, prazos e status dos projetos, garantindo previsibilidade e organização.Reuniões com múltiplos clientes para alinhamento técnico e funcional, explicando regras do sistema, validações e próximos passos.Identificação de falhas nos dados ou no processo e atuação rápida para correção.Mentalidade digital, curiosidade por novas tecnologias e interesse em entender como a Inteligência Artificial pode transformar processos, experiências e resultados."
+        ],
+        "requisitos": [
+            "Conhecimento em SQL e manipulação de dadosExcel/Planilhas em nível intermediário ou avançadoRaciocínio lógico e visão analíticaBoa comunicação e didática com clientesOrganização e gestão de múltiplas demandasConhecimento ou interesse em tecnologias de Inteligência Artificial: ferramentas, aplicações e conceitos."
+        ]
+    }
+]

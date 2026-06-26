@@ -1,5 +1,6 @@
 from playwright.sync_api import sync_playwright
-
+from time import sleep
+import json
 
 def extrair_dados(cards) -> list:
     lista = []
@@ -16,12 +17,12 @@ def extrair_dados(cards) -> list:
     return lista
 
 
-def extrair_responsabilidades(unordered_list) -> list:
+def extrair_topicos(elementos) -> list:
     lista_responsabilidades = []
-    topicos = unordered_list.locator("li")
-    for i in range(topicos.count()):
-        texto = topicos.nth(i)
-        lista_responsabilidades.append(texto.text_content())
+    for i in range(elementos.count()):
+        texto = elementos.nth(i).text_content()
+        if texto.strip():
+            lista_responsabilidades.append(texto.strip())
     return lista_responsabilidades
 
 
@@ -37,16 +38,37 @@ with sync_playwright() as playwright:
     page.locator("a[aria-label*='Ir para vaga']").first.wait_for()
     links_vagas = page.locator("a[aria-label*='Ir para vaga']")
     dados_extraidos = extrair_dados(links_vagas)
-    vaga = dados_extraidos[0]
-    link = vaga["link"]
-    page.goto(link)
-    h2_responsabilidade = page.get_by_role("heading", name="Responsabilidades e atribuições")
-    div_responsabilidades = h2_responsabilidade.locator("xpath=..").locator("div")
-    lista_ul = div_responsabilidades.locator("ul")
-    responsabilidades = extrair_responsabilidades(lista_ul)
-    for responsabilidade in responsabilidades:
-        print(responsabilidade)
-    input()
+    for vaga in dados_extraidos:
+        link = vaga["link"]
+        page.goto(link, wait_until="domcontentloaded")
+        h2_responsabilidade = page.get_by_role("heading", name="Responsabilidades e atribuições")
+        if h2_responsabilidade.count() > 0:
+            div_responsabilidades = h2_responsabilidade.locator("xpath=..").locator("div")
+            if div_responsabilidades.locator("ul").count() > 0:
+                elementos = div_responsabilidades.locator("ul")
+                vaga["responsabilidades"] = extrair_topicos(elementos)
+            elif div_responsabilidades.locator("p").count() > 0:
+                elementos = div_responsabilidades.locator("p")
+                vaga["responsabilidades"] = extrair_topicos(elementos)
+            sleep(3)
+        else:
+            vaga["responsabilidades"] = ["Ausente"]
+
+        h2_requisitos = page.get_by_role("heading", name="Requisitos e qualificações")
+        if h2_requisitos.count() > 0:
+            div_requisitos = h2_requisitos.locator("xpath=..").locator("div")
+            if div_requisitos.locator("ul").count() > 0:
+                elementos = div_requisitos.locator("ul")
+                vaga["requisitos"] = extrair_topicos(elementos)
+            elif div_requisitos.locator("p").count() > 0:
+                elementos = div_requisitos.locator("p")
+                vaga["requisitos"] = extrair_topicos(elementos)
+            sleep(3)
+        else:
+            vaga["requisitos"] = ["Ausente"]
+        with open("vagas.json", "w", encoding="utf-8") as arquivo:
+            json.dump(dados_extraidos, arquivo, ensure_ascii=False, indent=4)
+    print("Arquivo 'vagas.json' criado com sucesso!")
 
 
 
