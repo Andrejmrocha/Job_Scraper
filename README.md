@@ -15,7 +15,7 @@ Este projeto implementa uma arquitetura modular de Extração, Transformação e
 
 O projeto segue os princípios de *Clean Code* e *Separation of Concerns* (SoC), dividido nos seguintes módulos:
 
-* `main.py`: O Maestro. Orquestra a ordem de execução do script e gerencia a lógica de negócio (como o filtro de chave composta para evitar URLs duplicadas).
+* `main.py`: O Maestro. Orquestra a ordem de execução do script e gerencia a lógica de negócio (como o filtro de chave composta para evitar vagas duplicadas).
 * `scraper.py`: O Operário. Focado exclusivamente na interação com o DOM usando Playwright e localização de elementos CSS/XPath.
 * `ia.py`: O Cérebro. Isola a comunicação com a API da OpenAI e gerencia o prompt do sistema.
 * `utils.py`: O Auxiliar. Responsável pelo I/O e persistência dos dados no disco.
