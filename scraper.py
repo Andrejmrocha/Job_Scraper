@@ -1,5 +1,6 @@
 from playwright.sync_api import Page
 from ia import refinar_com_ia
+from utils import padronizar_data
 
 def extrair_dados(cards) -> list:
     lista = []
@@ -7,11 +8,13 @@ def extrair_dados(cards) -> list:
         card = cards.nth(i)
         titulo = card.locator("h3")
         empresa = card.locator("p").first
+        data_publicacao = card.locator("p").nth(1).text_content()[-10:]
         link = card.get_attribute("href")
         lista.append({
             "titulo": titulo.text_content(),
             "empresa": empresa.text_content(),
-            "link": link
+            "link": link,
+            "data_publicacao": padronizar_data(data_publicacao)
         })
     return lista
 

@@ -19,7 +19,7 @@ with sync_playwright() as playwright:
     chaves_vistas = set()
 
     for vaga in dados_extraidos:
-        chave = f"{vaga['titulo']} | {vaga['empresa']}"
+        chave = f"{vaga['titulo']} | {vaga['empresa']} | {vaga['data_publicacao']}"
 
         if chave not in chaves_vistas:
             vagas_unicas.append(vaga)
