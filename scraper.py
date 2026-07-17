@@ -11,7 +11,7 @@ def extrair_dados(cards) -> list:
         data_publicacao = card.locator("p").nth(1).text_content()[-10:]
         link = card.get_attribute("href")
         lista.append({
-            "titulo": titulo.text_content(),
+            "titulo": str.strip(titulo.text_content()),
             "empresa": empresa.text_content(),
             "link": link,
             "data_publicacao": padronizar_data(data_publicacao)

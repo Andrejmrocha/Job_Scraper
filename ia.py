@@ -43,3 +43,30 @@ def refinar_com_ia(lista_original, tipo_secao) -> list:
     except Exception as e:
         print(f"Aviso: Erro ao processar {tipo_secao}. Erro: {e}")
         return lista_original
+
+
+def determinar_senioridade_com_ia(titulo_vaga: str, requisitos: list):
+
+    prompt = f"""
+    Você é um especialista em vagas de emprego do setor de tecnologia da informação.
+    Sua missão é classificar a senioridade de uma vaga de emprego, com base no título da vaga e seus requisitos.
+    Classifique estritamente como UMA destas opções: "Estágio", "Júnior", "Pleno", "Sênior", "Especialista", ou "Não identificada".
+
+    Retorne EXCLUSIVAMENTE um objeto JSON no formato exato: {{"Senioridade": "Resposta"}}
+    """
+    try:
+        response = cliente.chat.completions.create(
+            model="gpt-4o-mini",
+            response_format={"type": "json_object"},
+            messages=[
+                {"role": "system", "content": prompt},
+                {"role": "user", "content": f"Título: {titulo_vaga}\n Requisitos: {requisitos}"}
+            ],
+            temperature=0.1
+        )
+
+        resposta_json = json.loads(response.choices[0].message.content)
+        return resposta_json["Senioridade"]
+    except Exception as e:
+        print(f"Aviso: Erro ao processar {titulo_vaga}. Erro: {e}")
+        return None
